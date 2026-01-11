@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1440px;
+            border: 2px solid black;
+            margin: 0 auto;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            height: 60px;
+        }
+        .nav-link ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+         .nav-link ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+         }
+            #hero-section{
+                width: 100%;
+               text-align: center;
+               border: 2px solid red;
+
+            }
+            #hero-content-header{
+                font-size: 48px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+
+    </style>
 </head>
+
 <body>
-    <h1>test</h1>
+    <header class="header-container" style="background-color: rgb(242, 232, 201);">
+        <nav class="nav-container">
+            <div class="nav-title">
+                <h1>G3 Architects</h1>
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="#">Home</a>
+                    <li><a href="#">About</a>
+                    <li><a href="#">Contact Us</a>
+                    <li><a href="#">Login</a>
+                </ul>
+            </div>
+        </nav>
+         <!-- hero section  -->
+        <section id="hero-section">
+          <div class="hero-content">
+            <h1 id="hero-content-header">Brand New Group of <br> Architects</h1>
+            <p id="hero-content-paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration <br> in some form, by injected humour, or randomised words which don't look even</p>
+
+          </div>  
+          <div class="hero-image">
+
+          </div>
+        </section>
+    </header>
 </body>
+
 </html>
