@@ -1,0 +1,47 @@
+   @media (max-width:540px) {
+            
+        body {
+            max-width: 540px;
+           
+            margin: 0 auto;
+        }
+            .nav-container {
+               
+                flex-direction: column;
+               
+            }
+            #hero-content-header{
+                font-size: 20px;
+                  margin-top: 20px;
+            margin-bottom: 10px;
+            }
+            #hero-content-paragraph{
+                font-size: 0.5em;
+            }
+            
+        #hero-btn {
+
+           
+            padding: 5px 10px;
+            font-size: 10px;
+          
+            margin-top: 20px;
+        }
+        .nav-title{
+            font-size:15px ;
+        }
+
+             .nav-link ul li a {
+           
+            font-size: 12px;
+        }
+
+        .sm-hero-image{
+
+            width: 90vw;
+            margin: 0 auto;
+            margin-top: 20px;
+
+        }
+
+        }
